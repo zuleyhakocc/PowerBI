@@ -39,7 +39,7 @@ https://powerbi.microsoft.com/
 
 ---
 
-## 4. Veri Klasörü ile Bağlantıyı Düzenleme (Gerekirse)
+## 4. Veri Klasörü ile Bağlantıyı Düzenleme 
 
 Projeyi farklı klasöre taşıdığında Power BI veri yolunu yeniden isteyebilir.
 

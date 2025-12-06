@@ -3,8 +3,20 @@
 
 # PowerBI – Şehirler ve Bölgeler Raporu
 
-Bu repo, **Power BI Desktop** kullanılarak hazırlanmış örnek bir raporları içerecektir , bu raporda kullanılan Excel veri dosyalarını içerir.
-Amaç; şehir ve bölge bazında verileri Power BI ile nasıl modele dönüştürebileceğini, görselleştirebileceğini ve yeniden kullanabileceğini göstermektir.
+Bu repo, **Power BI Desktop** kullanılarak hazırlanmış örnek bir raporları içerecektir.
+
+**Bu projenin amacı** şehir ve bölge bazındaki nüfus verilerini **Power BI veri modeli** içinde organize ederek farklı kırılımlarda analiz edebilmek, bu verileri **ölçüler (DAX measures)** ile toplulaştırmak (SUM), harita ve kart görselleriyle etkileşimli hale getirmektir.
+
+Hazırlanan Power BI modeli:
+
+- Şehirler ve bölgeler arasında **ilişkisel bir veri modeli (relationship)** kurar.
+- Erkek, kadın ve toplam nüfus gibi sayısal alanlar üzerinden **toplam (SUM aggregation)** hesaplamaları yapar.
+- Bölge seçimine göre tüm görsellerin **dinamik olarak filtrelenmesini** sağlar.
+- Harita görseli üzerinde şehirlerin nüfus büyüklüklerine göre **bubble-map** gösterimi sunar.
+- Kullanıcıya, veriyi şehir → bölge → ülke düzeyinde farklı **hiyerarşik kırılımlarla** inceleme imkanı verir.
+- Tablo, kart, düğme (button) ve harita bileşenleri aracılığıyla **interaktif raporlama deneyimi** sağlar.
+
+Bu yapı sayesinde, Power BI’daki veri modelleme, measure oluşturma, filtre bağlamı (filter context) ve görselleştirme prensiplerini uygulamalı olarak göstermeyi hedefler.
 
 ---
 - **10102025_kaynak.pbix**  
